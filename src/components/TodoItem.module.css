@@ -5,6 +5,15 @@
     background-color: #f7f5ef;
 }
 
-.item span {
+.item div {
     float: right;
 }
+
+img { 
+    border: 3px solid transparent;
+    border-radius: 10%;
+  } 
+  img:hover { 
+    border: 3px solid #494844;
+    cursor: pointer;
+  } 

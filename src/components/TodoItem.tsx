@@ -11,9 +11,9 @@ const TodoItem: React.FC<{
         <li className={classes.item}>
             {props.text}
 
-            <span onClick={props.onDelete}>
+            <div onClick={props.onDelete}>
                 <img src={deleteItem} height={20} alt="delete" />
-            </span>
+            </div>
         </li>
     );
 };
