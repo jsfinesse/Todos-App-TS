@@ -7,13 +7,15 @@
 
 .item div {
     float: right;
+    display: flex;
 }
 
 img { 
     border: 3px solid transparent;
     border-radius: 10%;
-  } 
-  img:hover { 
+  }
+
+img:hover { 
     border: 3px solid #494844;
     cursor: pointer;
   } 
