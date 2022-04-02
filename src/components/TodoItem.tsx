@@ -1,5 +1,4 @@
 import classes from "./TodoItem.module.css";
-import edit from "../icons/edit.svg";
 import deleteItem from "../icons/deleteItem.svg";
 import React from "react";
 
